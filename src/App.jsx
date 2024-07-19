@@ -1,10 +1,4 @@
-import CustomerReviews from "./section/CustomerReviews";
-import Footer from "./section/Footer";
-import Hero from "./section/Hero";
-import PopularProducts from "./section/PopularProducts";
-import Servicess from "./section/Servicess";
-import Subscribe from "./section/Subscribe";
-import SuperQuality from "./section/SuperQuality";
+import { CustomerReviews,Footer,Servicess,SpecialOffer,SuperQuality,Subscribe,PopularProducts ,Hero}from "./section"
 
 function App() {
   
@@ -13,49 +7,56 @@ function App() {
     <main className='relative'>
       Nav
       <section className='xl:padding-1 wide:padding-r padding-b'>
-        Hero
+        <Hero/>
+        
         
       </section>
 
       <section className='padding'>
-        PopularProducts
+        <PopularProducts/>
 
       </section>
 
 
       <section className='padding'>
-        SuperQuality
+        <Subscribe/>
+
+      </section>
+
+
+      <section className='padding'>
+        <SuperQuality/>
 
       </section>
 
 
 
       <section className='padding padding-x padding-y'>
-        Service
+        <Servicess/>
 
       </section>
 
 
       <section className='padding'>
-        SpecialOffer
+        <SpecialOffer/>
 
       </section>
 
 
       <section className='bg-pale-blue padding'>
-        CustomerReview
+        <CustomerReviews/>
 
       </section>
 
 
       <section className='padding-x sm:py-32 py-16 w-full'>
-        Subscribe
+        <Subscribe/>
 
       </section>
 
 
       <section className='padding bg-black padding-x padding-b pb-8'>
-        Footer
+        <Footer/>
 
       </section>
 
